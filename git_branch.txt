@@ -1,0 +1,12 @@
+git branch
+git branch new_branch
+git checkout new_branch
+git checkout -b new_branch
+git branch -d new_branch
+git branch -D new_branch
+git checkout main
+git branch
+git status
+git merge new_branch
+
+This is how git branch work
