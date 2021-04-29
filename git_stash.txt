@@ -1,0 +1,15 @@
+git stash is a advance command in git to save un committed changes . 
+basic commands for that are as follows:
+It saves the changes which are yet to be commited but they are in staging area.
+git add .
+git commt -m "I am about to git commit"
+git stash -u
+git status (nothing in working dir)
+git stash list
+git stash show
+------ woke to recover back from git stash --
+git stash apply
+git status
+git add .
+git commit -m ""
+git push
